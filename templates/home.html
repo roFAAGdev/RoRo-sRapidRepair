@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/templates/styles.css">
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoRo's Rapid Repair</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #007bff;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 1rem;
+        }
+        .nav-links {
+            display: flex;
+            gap: 1rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        .social-media {
+            display: flex;
+            gap: 0.5rem;
+        }
+        .social-media a img {
+            width: 24px;
+            height: 24px;
+        }
+        .content {
+            text-align: center;
+            padding: 2rem;
+            background: url('/images/purplephone.jpg') no-repeat center center/cover;
+            color: white;
+            min-height: calc(100vh - 8rem); /* Adjusting height */
+        }
+        .services, .footer {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        button {
+            background-color: #ff9800;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #e68900;
+        }
+        .form-container {
+            max-width: 400px;
+            margin: 0 auto;
+            background: white;
+            padding: 1rem;
+            border-radius: 8px;
+        }
+        .form-container input, .form-container textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <div class="nav-links">
+                <h1>RoRo's Rapid Repair</h1>
+                <a href="/home">Home</a>
+                <a href="/services">Services</a>
+                <a href="/contact">Contact</a>
+            </div>
+            <div class="social-media">
+                <a href="https://www.instagram.com/yourprofile" target="_blank">
+                    <img src="/images/—Pngtree—instagram icon_8704817.png" alt="Instagram">
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61553543861514" target="_blank">
+                    <img src="/images/logoineeded.png" alt="Facebook">
+                </a>
+            </div>
+        </nav>
+
+        <div>
+    <div class="content" id="home">
+        <h2>About Us</h2>
+        <p>At RoRo's Rapid Repair, we specialize in quick and reliable repairs. Our experienced technicians are dedicated to providing the best service possible to get your device back in working order.</p>
+        <button onclick="document.getElementById('services').scrollIntoView();">Get a Quote</button>
+    </div>
+    
+    <div class="footer" id="contact">
+        <p>© 2024 RoRo's Rapid Repair. All rights reserved.</p>
+    </div>
+ 
+</body>
+</html>
+
+        
